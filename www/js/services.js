@@ -60,11 +60,23 @@ angular.module('starter.services', [])
       			'Chapter 9: If Ashley died from opening the latch after investigating the voice, and Chris will hear the same voice and be killed by decapitation \
       			 by the same Wendigo. Ashley opening the latch will always result in Chris\'s death.',
       			'Chapter 9: If Ashley doesn\'t open the latch, Chris will come to the same decision, to investigate the voice OR rejoin the group. Investigating the \
-      			voice lead Chris to opening a latch, letting a Wendigo out to kill him.'
+      			voice lead Chris to opening a latch, letting a Wendigo out to kill him.',
+      			'Chris can\'t die in Chapter 10. If he survives until that point, he will survive no matter what.'
       ]
     },
     { id: 6, name: 'Ashley', 
-      img: 'img/Ashley.png', imgDetail: 'img/Ashley-Detail.png'},
+      img: 'img/Ashley.png', imgDetail: 'img/Ashley-Detail.png',
+      quote: 'You can\'t do it, Chris. It should be me! You chose to save me before, let me choose this time... Let me choose to save you. If I do one last thing in my life let me do this',
+      story: '',
+      deaths: [ 'Chapter 9: When Ashley is walking through the manhole, she will hear a voice and have the option to investigate the voice or rejoin the group. \
+      			 Investigating the voice leads Ashley left into a room with a trapdoor and banging coming from the other side of it. There are 3 possible ways \
+      			 Ashley can go about this. She can walk right past it, ensuring her survival in this chapter. She can go up to the trap and unla',
+      			'',
+      			'',
+      			'',
+      			''
+      ]
+  	},
     { id: 7, name: 'Matt', 
       img: 'img/Matt.png', imgDetail: 'img/Matt-Detail.png'},
     { id: 8, name: 'Jess', 
