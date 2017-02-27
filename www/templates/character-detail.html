@@ -1,0 +1,16 @@
+<ion-view view-title="{{character.name}}">
+  <ion-content class="padding">
+    <img ng-src="{{character.img}}" style="width: 64px; height: 64px">
+    <p>
+     	{{character.name}}
+    </p>
+    <p>
+    	<ul>
+    		<li ng-repeat="death in character.deaths">{{ death }}</li>
+    	</ul>
+    </p>
+    <p> 
+    	{{character.quote}}
+    </p>
+  </ion-content>
+</ion-view>
