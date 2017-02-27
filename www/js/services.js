@@ -70,17 +70,45 @@ angular.module('starter.services', [])
       story: '',
       deaths: [ 'Chapter 9: When Ashley is walking through the manhole, she will hear a voice and have the option to investigate the voice or rejoin the group. \
       			 Investigating the voice leads Ashley left into a room with a trapdoor and banging coming from the other side of it. There are 3 possible ways \
-      			 Ashley can go about this. She can walk right past it, ensuring her survival in this chapter. She can go up to the trap and unla',
-      			'',
-      			'',
-      			'',
-      			''
+      			 Ashley can go about this. She can walk right past it, ensuring her survival in this chapter. She can go up to the trap and unlatch it, then open the \
+      			 door, or just unlatch it and walk away. Both will result in a Wendigo popping out and attacking her on the floor. Completely ignoring.',
+      			'Chapter 10: Ashley revealing in Chapter 8 that Emily\'s bite is not infectious will cause Emily to push Ashley infront of the Wendigos in the final \
+      			 scene. Meaning that Ashley is the last person to run out of the cabin. Sam will have to go through all the others first to save Ashley. Running for the \
+      			 switch at any time will incinerate Ashely in the explosion.',
+      			'Chapter 10: Sam doing nothing about the Wendigo will result in the Wendigo walking closely to Ashley and attacking her when she freaks out.'
       ]
   	},
     { id: 7, name: 'Matt', 
-      img: 'img/Matt.png', imgDetail: 'img/Matt-Detail.png'},
+      img: 'img/Matt.png', imgDetail: 'img/Matt-Detail.png',
+      quote: 'Jess, I need to tell you something, and I don\'t want to freak you out, but there\'s... there\'s some kind of thing on the mountain. It\'s not human... it\'s like a monster',
+      story: '',
+      deaths: [ 'Chapter 6: Matt and Emily are lead up to a cliff where they are backed to the edge by a group of Elk. Matt is given a timed QTE, which allows him to hit \
+      			 the elk or wait for the timer to run out. Hitting the elk will aggrivate the rest of the elk, and they will push Matt off the cliff, resulting in him \
+      			 falling on the rocks below.',
+      			'Chapter 6: When the fire tower falls into the mines, Matt is given the decision to save Emily or jump to safety. Jumping to safety ensuring Matt\'s survival \
+      			 in this chapter. Saving Emily twice will not save her, the ledge will fall and he will jump to another platform at the last second. A unknown monster grabs \
+      			 Matt by his sweater, pulls him through the mines and kills him by impaling his jaw on a meat hook.',
+      			'Chapter 10: If Jess has also survived until this point, the two will meet in the mines. Jess will be badly injured and will express that she can\'t walk very \
+      			 fast. As soon as they start to hear Wendigo screetching, Matt is given a bunch of options for the two of them. Hiding the failing the don\'t move will kill both of \
+      			 them. Any option with running will kill both Jess and Matt as well.',
+      			'Chapter 10: Choosing to abandon Jess and failing to hit the QTE that closes the metal door will result in Matt getting his face crushed by a Wendigo.',
+      			'Chapter 10: Failing the final don\'t move with Jess at the end will result in both of their deaths.',
+      			'If Jess is dead at this point, Matt making the same mistakes by himself will lead to his same demise.'
+      ]
+  	},
     { id: 8, name: 'Jess', 
-      img: 'img/Jessica.png', imgDetail: 'img/Jessica-Detail.png'},
+      img: 'img/Jessica.png', imgDetail: 'img/Jessica-Detail.png',
+      quote: 'It came after me! (...) It fucking pulled me down here into this fucking nightmare',
+      story: '',
+      deaths: [ 'Chapter 4: Mike begins to chase Jess after she is pulled through the window by the Wendigo. During this chase, if Mike takes the slower paths OR takes the fast \
+      			 paths and fails to the QTEs, she will be dead by the time he catches up to her in the mine elevator shaft.',
+      			'',
+      			'',
+      			'',
+      		    '',
+      			''
+      ]
+  	},
     { id: 9, name: 'Beth', 
       img: 'img/Beth.png', imgDetail: 'img/Beth-Detail.png'},
     { id: 10, name: 'Hannah', 
