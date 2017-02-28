@@ -59,3 +59,10 @@ ion-content {
 #page-title {
 	text-align: center;
 }
+
+.tabs {
+	background-color: #414141;
+}
+ion-tabs.tabs-color-active-dark .tab-item.tab-item-active, ion-tabs.tabs-color-active-dark .tab-item.active, ion-tabs.tabs-color-active-dark .tab-item.activated {
+	color: #000000;
+}
