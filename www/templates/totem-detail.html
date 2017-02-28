@@ -1,10 +1,55 @@
 <ion-view view-title="{{totem.type}} Totems">
-  <ion-content class="padding">
-    <h3>{{totem.totem1Found}}</h3>
-    <h3>{{totem.totem2Found}}</h3>
-    <h3>{{totem.totem3Found}}</h3>
-    <h3>{{totem.totem4Found}}</h3>
-    <h3>{{totem.totem5Found}}</h3>
-    <h3>{{totem.totem6Found}}</h3>
-  </ion-content>
+	<ion-content class="padding">
+		<h1 id="page-title">{{totem.type}}</h1>
+		<p id="quote">"{{totem.quote}}"</p>
+		<h3 style="text-align:center">{{totem.info}}</h3>
+		<br>
+		<!--Totem #1 of specific category-->
+		<h3>{{totem.type}} Totem #1</h3>
+		<p>{{totem.totem1Contents}}</p>
+		<p>Found In: {{totem.totem1Chapter}}, {{totem.totem1Found}}</p>
+		<p style="text-align: center">{{totem.totem1Location}}</p>
+		<img src="{{totem.totem1Img}}" style="width: 80%; height: 20%; display: block; margin-left: auto; margin-right: auto">
+		<br><br>
+
+		<!--Totem #2 of specific category-->
+		<h3>{{totem.type}} Totem #2</h3>
+		<p>{{totem.totem2Contents}}</p>
+		<p>Found In: {{totem.totem2Chapter}}, {{totem.totem2Found}}</p>
+		<p style="text-align: center">{{totem.totem2Location}}</p>
+		<img src="{{totem.totem2Img}}" style="width: 80%; height: 20%; display: block; margin-left: auto; margin-right: auto">
+		<br><br>
+
+		<!--Totem #3 of specific category-->
+		<h3>{{totem.type}} Totem #3</h3>
+		<p>{{totem.totem3Contents}}</p>
+		<p>Found In: {{totem.totem3Chapter}}, {{totem.totem3Found}}</p>
+		<p style="text-align: center">{{totem.totem3Location}}</p>
+		<img src="{{totem.totem3Img}}" style="width: 80%; height: 20%; display: block; margin-left: auto; margin-right: auto">
+		<br><br>
+
+		<!--Totem #4 of specific category-->
+		<h3>{{totem.type}} Totem #4</h3>
+		<p>{{totem.totem4Contents}}</p>
+		<p>Found In: {{totem.totem4Chapter}}, {{totem.totem4Found}}</p>
+		<p style="text-align: center">{{totem.totem4Location}}</p>
+		<img src="{{totem.totem4Img}}" style="width: 80%; height: 20%; display: block; margin-left: auto; margin-right: auto">
+		<br><br>
+
+		<!--Totem #3 of specific category-->
+		<h3>{{totem.type}} Totem #5</h3>
+		<p>{{totem.totem5Contents}}</p>
+		<p>Found In: {{totem.totem5Chapter}}, {{totem.totem5Found}}</p>
+		<p style="text-align: center">{{totem.totem5Location}}</p>
+		<img src="{{totem.totem5Img}}" style="width: 80%; height: 20%; display: block; margin-left: auto; margin-right: auto">
+		<br><br>
+
+		<!--Totem #3 of specific category-->
+		<h3>{{totem.type}} Totem #6</h3>
+		<p>{{totem.totem6Contents}}</p>
+		<p>Found In: {{totem.totem6Chapter}}, {{totem.totem6Found}}</p>
+		<p style="text-align: center">{{totem.totem6Location}}</p>
+		<img src="{{totem.totem6Img}}" style="width: 80%; height: 20%; display: block; margin-left: auto; margin-right: auto">
+		<br><br>
+	</ion-content>
 </ion-view>

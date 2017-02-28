@@ -50,3 +50,12 @@ ion-view {
 ion-content {
 	background-image: url("../img/background.png");
 }
+
+#quote {
+	font-style: italic;
+	text-align: center;
+}
+
+#page-title {
+	text-align: center;
+}
