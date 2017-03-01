@@ -98,15 +98,15 @@ angular.module('starter.services', [])
   	},
     { id: 8, name: 'Jess', 
       img: 'img/Jessica.png', imgDetail: 'img/Jessica-Detail.png',
-      quote: 'It came after me! (...) It fucking pulled me down here into this fucking nightmare',
+      quote: 'It came after me! It fucking pulled me down here into this fucking nightmare',
       story: '',
       deaths: [ 'Chapter 4: Mike begins to chase Jess after she is pulled through the window by the Wendigo. During this chase, if Mike takes the slower paths OR takes the fast \
       			 paths and fails to the QTEs, she will be dead by the time he catches up to her in the mine elevator shaft.',
-      			'',
-      			'',
-      			'',
-      		    '',
-      			''
+      			'Chapter 10: If Matt survived: Matt will cross paths with Jess in the mines. After hearing screeching, Matt has the option to either run or hide. Running ensures a \
+      			 Wendigo will catch up with them, and they will be killed.',
+      			'Chapter 10: If Matt choose to hide and successfully passed the don\'t move, he will be given the option to abandon jessica or hide together. Abandoning her places her \
+      			 in the grasp of the Wendigo.',
+      		    'Chapter 10: If Matt died by this point: Failing any don\'t move, QTE, or choosing to run instead of hide will result in Jess dying. '
       ]
   	},
     { id: 9, name: 'Beth', 
